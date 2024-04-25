@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "socketcluster-client": "^16.0.2"
+  }
+}

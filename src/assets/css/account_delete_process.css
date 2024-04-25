@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input, textarea, select {
+    -webkit-touch-callout: default !important;
+    -webkit-user-select: text !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    overscroll-behavior: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 767px;
+    margin: auto;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+
+form {
+    padding: 20px;
+}
+
+form strong {
+    font-size: 24px;
+}
+
+.form-group .form-control {
+    width: 100% !important;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+    outline: none !important;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+
+.gen-button, .gen-button-white {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: #333;
+    color: #fff !important;
+    padding: 10px 15px;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.gen-button span {
+    width: 20px;
+}
+
+.forgotpass-row {
+    text-align: right;
+}
+
+.resendotp-row {
+    text-align: left;
+}
+
+.forgotpass-row a, .resendotp-row {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.phone-input {
+    position: relative;
+    display: block;
+}
+
+.countryPhoneSelectChoice {
+    top: 6px !important;
+}
+
+.countryPhoneSelectWrapper .countryCode {
+    font-weight: 600 !important;
+    padding: 3px !important;
+}
+
+.email-text, .sitename-text {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+.sitename-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-section img {
+    width: 115px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-info strong {
+    display: block;
+    font-size: 16px;
+}
+
+.gen-button-white {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.gen-button-negative {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    color: #00a9b7 !important;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.del-info {
+    text-align: center;
+    margin: 50px 0;
+}

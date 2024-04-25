@@ -1,0 +1,9 @@
+{
+"app": {
+        "port": 6380,
+        "docs_per_page": 15,
+		"password": "RCnw1LAxBhjm",
+        "locale": "en",
+        "context": "cubejekdev"
+    }
+}

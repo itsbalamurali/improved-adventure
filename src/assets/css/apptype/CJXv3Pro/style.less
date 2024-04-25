@@ -1,0 +1,612 @@
+@mainColor: #249656;
+@mainColorSecond: #249656;
+@mainTextColor: #ffffff;
+@mainTextColorHover: #ffffff;
+@mainTextColorHoverDefoult: #ffffff;
+@mainTextMenuColorHoverDefault: #000;
+@mainTextFilterColor: invert(0);
+@mainTextFilterColorHover: invert(0);
+@AlphamainColor: fade(@mainColor, 85%); /******* 80% alpha *********/
+@mainColorHover: #249656; /***** #8a8a00 ***/
+@hoverColor: #757575;
+@mainfilterimg: invert(43%) sepia(70%) saturate(472%) hue-rotate(94deg) brightness(94%) contrast(87%);
+@mainfilterimgHover: invert(93%) sepia(9%) saturate(984%) hue-rotate(84deg) brightness(92%) contrast(100%);
+@hoverColo-Light: #f6f6f6;
+@buttonColor: #000;
+@buttonColorHover: #249656;
+// @mainColorLight:#eaffff;
+@mainColorLight: #2496562e;
+@gotopBGColor: #249656;
+@gotopImgColor: invert(0);
+@gotopHoverBGColor: #249656;
+@gotopHoverImgColor: invert(0);
+.gen-btn, .button-block a.gen-btn, .modal:not(.payment-modal) .modal-footer .btn {
+  background: @buttonColor;
+}
+
+.header-right ul li .dropdown-content:before {
+  border-bottom-color: @mainColor;
+}
+
+.banner {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, @mainColorLight 83%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, @mainColorLight 83%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, @mainColorLight 83%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='@mainColorLight',GradientType=0);
+  -webkit-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='@mainColorLight',GradientType=0);
+}
+
+.deliveraddressIcon-clo-av .cart_b .cart_count {
+  color: @mainTextColor;
+  background: @mainColor;
+}
+
+ul.tab-row.homepage li:before,
+.common-title.left h3:before,
+.accept-orders,
+.login-block-heading,
+.header-right ul li.lang .dropdown-content .row h3,
+.header-right ul li.curr .dropdown-content .row h3,
+header ul.mobile_language_cur li .dropdown-content .row h3, .nav-links .drop-menu h3 {
+  background-color: @mainColorLight;
+}
+
+ul.tab-switch li.active a {
+  box-shadow: 0 0 0 1px @mainColor;
+}
+
+.how-it-works-section ul li:first-child:before,
+.how-it-works-section ul li:first-child:after,
+.services ul li .service-block:hover a,
+.benefits ul li i,
+.benefits .benefits-right ul li i,
+.get_app_area,
+.howitworks .horizonatal-title h3:after,
+.howitworks ul li:hover i:after,
+.benefits .horizonatal-title h3:after,
+.delivery-left button,
+.destination ul li:hover .destination-caption,
+.charters ul li:hover .charters-caption,
+.dark-variant.benefits,
+.article-image,
+.invoice-pay-type,
+.track-order-data ul li.passed i,
+.profile-image i,
+.booking-header,
+.radio-button:after,
+.check-button:after,
+.custom-modal .model-header,
+.custom-modal .modal-header,
+.modal .modal-header,
+.upload-block strong,
+.booking-heading select option,
+.sb-example-1 .searchButton,
+.our-services .single-memb .service-read-more a:after,
+.custom-modal-genbtn, .payment-tabs .gen-btn.active,
+.common-title h3 span:after,
+.common-title h3 span:before,
+.rootservices ul li a.more-services,
+.account-delete .gen-button,
+.rootservices ul li:after,
+header.fixed .dropdown-content .column strong.subcategoryptitle::after,
+.location-area form .element-holder.address-input button[type="submit"],
+#new-home-page header.fixed .header-left ul li a::after,
+.round-shape,
+.become-shape,
+.header-left ul li a:hover:after,
+.become ul li strong:before,
+.rootservices ul li a,
+.gen-cms-page h2.header-page:after,
+.rootservices ul li .readmorebtn,
+header.fixed .header-right ul li.login.active a,
+#new-home-page header.fixed .header-right ul li.login a:hover,
+.become ul li a:after,
+header.fixed .header-right ul li.login.active a:hover,
+.goto-service-page,
+.company-register-card:after,
+.btn-hold .book-btn:hover,
+.btn-hold input[type="submit"]:hover,
+.ordernow .book-btn:hover {
+  background-color: @mainColor;
+}
+
+#new-home-page header .menu-ico span,
+#new-home-page header .menu-ico span:before,
+#new-home-page header .menu-ico span:after,
+.menu-ico span,
+.menu-ico span::after,
+.menu-ico span::before, .profile-column .accept-orders i {
+  background-color: @mainColor;
+}
+
+.sb-example-1 .searchButton,
+.accept-orders, .account-delete .gen-button-white,
+.account-delete .profile-section img,
+.account-delete .form-control,
+.innertab .tablinks.active,
+.login-caption ul li:before,
+#new-home-page header.fixed .header-right ul li.login a,
+header.fixed .header-right ul li.login.active a,
+header.fixed .header-right ul li.login a,
+.login-block-heading,
+header.fixed .header-right ul li.login:hover a,
+.get_app_area-left,
+.gen-cms-page h2.header-page:after,
+#new-home-page header.fixed .header-right ul li.login a {
+  border-color: @mainColor;
+}
+
+.rootservices ul li:hover > div {
+  box-shadow: 0 0 0 2px @mainColor inset, 0 0 28px 0 rgba(0, 0, 0, 0.08);
+}
+
+.custom-model-header, .countryPhoneSelectWrapper .countryCode {
+  background-color: @mainColor !important;
+}
+
+.benefits.dark-variant ul.listing-style li i,
+.become ul li:hover strong:after,
+.rootservices ul li > div:hover a,
+.rootservices ul li .readmorebtn:hover {
+  background-color: @mainColorHover;
+}
+
+.become ul li:hover a:after {
+  background-color: @mainColorHover;
+}
+
+.benefits.dark-variant ul.listing-style li {
+  border-color: @mainColorHover;
+}
+
+.benefits ul li:hover i {
+  background-color: @mainColorHover;
+}
+
+.rootservices ul li .service-block a::before, .common-inner-heading:after,
+#order-pages header.fixed .navmenu-links li a::after,
+#wrapper header.fixed .header-left ul li a::after,
+header.fixed.loggedin .header-left ul li a::after,
+header.fixed .header-right ul li.login a:hover,
+header.fixed .header-right ul li.login.active a,
+header.fixed .header-right ul li.login.active a:hover,
+.common-title h3 span:before,
+.common-title h3 span:after,
+.become ul li strong:before,
+.round-shape,
+.become-shape,
+.rootservices ul li .readmorebtn,
+.rootservices ul li a.more-services,
+.rootservices ul li:after,
+#new-home-page header.fixed .header-right ul li.login a:hover,
+#new-home-page header .menu-ico span,
+#new-home-page header .menu-ico span:before,
+#new-home-page header .menu-ico span:after {
+  background-color: @mainColor;
+}
+
+ul.tab-row li span,
+.categories-caption h2,
+.how-it-works-section h3,
+.how-it-works-section ul li strong,
+.safety-section h3,
+.call-section h3,
+.signup-block a,
+.services h3,
+.benefits ul li:hover strong,
+.cartype h3,
+.article-right h4,
+.article-right h4,
+.call-section.taxi-variant h3,
+.call-section.taxi-variant b,
+.call-section.taxi-variant p b,
+.fleet.food-variant h3,
+.benefits h3,
+.restaurant h3,
+.howitworks h3,
+.solutions h3,
+.solutions-left h4,
+.features h3,
+.destination h3,
+.charters h3,
+.step-sec .step-sec-inner > h3,
+.profile-title h4,
+.heading-area h1,
+.about-caption h3,
+.gen-cms-page h2.header-page,
+.faq-bottom-part ul li a,
+.login-block-heading label,
+.profile-caption .page-heading h1,
+.thanks-holder h2,
+.banner-section.taxi-app ul.tab-row li a,
+.delivery h3,
+.filter-navbar .navbar-filter-options a:hover,
+#new-home-page .banner h2 span,
+.sb-example-1 .search i.ti-location-pin,
+header.fixed .header-right ul li.login.active,
+.our-services .single-memb .memb-details h6,
+#new-home-page header.fixed .navmenu-links li a:hover,
+header.fixed .navmenu-links li a:hover
+header ul li a:hover,
+.banner-content h1 span,
+.account-delete a, .account-delete .gen-button-white,
+.common-title h3 span,
+header.fixed .dropdown-content .column strong.subcategoryptitle,
+.innertab .tablinks.active,
+.banner-content h1 span,
+header ul li.lang > a,
+header ul li.curr > a.active,
+#new-home-page header ul li.curr > a.active,
+header ul li a.active,
+#new-home-page header.fixed .navmenu-links li a.active,
+.common-inner-heading,
+header ul li.lang > a,
+header ul li.curr > a,
+header.fixed .header-right ul li.login a,
+header ul li a:hover, #wrapper header.fixed .navmenu-links li a:hover {
+  color: @mainColor;
+}
+
+.become ul li strong:before {
+  background-color: #24965694;
+}
+
+#order-pages header.fixed .navmenu-links li a:hover,
+#wrapper header.fixed .navmenu-links li a:hover,
+header.fixed.loggedin .navmenu-links li a:hover,
+.select_service ul#standard-select li:hover,
+.common-title h3 span,
+.banner-content h1 span {
+  color: @mainColor;
+}
+
+header.fixed .header-right ul li.login.active a,
+header.fixed .header-right ul li.login.active a:hover {
+  color: @mainTextColor;
+}
+
+header.fixed .header-right ul li.login a {
+  border: solid 2px @mainColor;
+  color: @mainColor;
+}
+
+header.fixed .header-right ul li.login:hover a,
+header.fixed .header-right ul li.login.active a,
+.banner-shape {
+  border: solid 2px @mainColor;
+}
+
+.page-contant-inner h2, .header-page p {
+  color: @mainColor;
+}
+
+.header-page::before, .contact-form b .submit-but, .delivery .horizonatal-title h3:after {
+  background-color: @mainColor;
+}
+
+ul.tab-switch li.active a {
+  color: @mainColor;
+}
+
+.how-it-works-section.homepage-variant ul li strong {
+  color: @buttonColor;
+}
+
+.signup-block a:hover:hover,
+.categories-caption h2 span {
+  color: @buttonColorHover;
+}
+
+.categories-caption a.book-btn,
+.call-section a.book-btn,
+.btn-hold input[type="submit"],
+.deliver-address button[type="submit"],
+.gen-btn,
+.profile-block .profile-caption-header button,
+button.waves-effect,
+.booking-footer .submitbtn,
+.filter-form input[type="submit"],
+.filter-form button,
+.filter-form a.gen-btn,
+.button-block a.gen-btn,
+.fileUploading:before {
+  background-color: @buttonColor;
+}
+
+.categories-caption a.book-btn:hover,
+.call-section a.book-btn:hover,
+.btn-hold input[type="submit"]:focus,
+.deliver-address button[type="submit"]:hover,
+.deliver-address button[type="submit"]:focus,
+.gen-btn:hover,
+.gen-btn:focus,
+.profile-block .profile-caption-header button:hover,
+button.waves-effect:hover,
+button.waves-effect:focus,
+.booking-footer .submitbtn:hover,
+.booking-footer .submitbtn:focus,
+.filter-form input[type="submit"]:hover,
+.filter-form button:hover,
+.filter-form a.gen-btn:hover,
+.gen-btn:hover,
+.button-block a.gen-btn:hover,
+.button-block a.gen-btn:focus,
+.fileUploading:hover:before,
+button[disabled],
+.booking-footer .submitbtn[disabled],
+.btn-hold input[type="button"]:hover {
+  background-color: @buttonColorHover;
+}
+
+.how-it-works-section ul li:first-child:before {
+  box-shadow: 0 0 0 2px @mainColor inset;
+}
+
+.services ul li .service-block:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px @mainColor;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px @mainColor;
+}
+
+.benefits.food-variant ul li i {
+  background-color: transparent;
+}
+
+.faq-top-part li.Active a {
+  box-shadow: 0 0 0 2px @mainColor inset;
+  -webkit-box-shadow: 0 0 0 2px @mainColor inset;
+  color: @mainColor;
+}
+
+.howitwork,
+ul.tab-row li:after, .banner-image-first.first-overlay::before {
+  background-color: @mainColor;
+}
+
+ul.user-menu,
+ul.user-menu li.logo {
+  background-color: @mainColorHover;
+}
+
+.profile-image {
+  box-shadow: 0 0 0 2px @mainColor;
+}
+
+.earning-block,
+.toggle-switch input[type="checkbox"]:checked ~ .toggle-base,
+.toggle-switch input[type="radio"]:checked ~ .toggle-base {
+  background-color: @AlphamainColor;
+}
+
+.radio-button,
+.check-button {
+  box-shadow: 0 0 0 1px @mainColor inset;
+}
+
+.thanks-holder img,
+.login-caption1 ul li:before, .gen-cms-page ul li:before,
+.detect-loc,
+header ul li.lang a > img.drop_arrow,
+header ul li.curr a > img.drop_arrow,
+.select_service ul#standard-select .service_head .search_service img,
+.deliver-address:before {
+  filter: @mainfilterimg;
+}
+
+.benefits.dark-variant ul.listing-style li strong,
+.benefits.dark-variant ul.listing-style li p,
+.dark-variant.benefits h3,
+.dark-variant.benefits .benefits-inner > strong,
+.get_app_content .section_title h2,
+.get_app_content p, .get_app_content ul li,
+.upload-block strong,
+.custom-modal .model-header h4, .modal .modal-header h4,
+.custom-modal .model-header i, .profile-image i,
+.booking-header, .pick-drop-location input::placeholder, .invoice-pay-type,
+.destination ul li:hover .destination-caption, .charters ul li:hover .charters-caption,
+.charters ul li:hover .charters-caption span, .booking-heading select option, header {
+  color: @mainTextColor;
+
+}
+
+.services ul li .service-block:hover a,
+.header-right ul li.login::after,
+.header-right ul li.lang::after,
+.header-right ul li.curr::after {
+  background-color: @mainTextColor;
+}
+
+.dropdown-content .column a:hover {
+  color: @mainTextMenuColorHoverDefault;
+}
+
+.services ul li .service-block:hover a {
+  background-color: @gotopBGColor;
+}
+
+.services ul li .service-block:hover, .services ul li .service-block:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px @gotopBGColor;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06), 0 0 0 1px @gotopBGColor;
+}
+
+.benefits.dark-variant ul.listing-style li i img,
+.get_app_content ul li::before, .benefits ul li i img,
+.benefits ul li i img, .delivery-left button img {
+  filter: @mainTextFilterColor;
+  -webkit-filter: @mainTextFilterColor;
+}
+
+.booking-heading select {
+  color: @mainTextColorHoverDefoult;
+  filter: @mainTextFilterColor;
+  -webkit-filter: @mainTextFilterColor;
+}
+
+.gotop img {
+  filter: @gotopImgColor;
+  -webkit-filter: @gotopImgColor;
+}
+
+.gotop:hover img {
+  filter: @gotopImgColor;
+  -webkit-filter: @gotopImgColor;
+}
+
+.gotop {
+  background-color: @gotopBGColor;
+}
+
+.gotop:hover {
+  background-color: @gotopHoverBGColor;
+}
+
+.restaurant-section, .restaurant-section-title {
+  background-color: @mainColorSecond;
+}
+
+.restaurant-section-bg-1 {
+  background-color: @mainColorSecond;
+}
+
+.restaurant-section-bg-2 {
+  background-color: @mainTextColor;
+}
+
+.proImg-block,
+.lock-img,
+.delivery-pref-button button {
+  background-color: @mainColor;
+}
+
+.delivery-pref-button button:hover {
+  background-color: @hoverColor;
+}
+
+.payment-delivery-tip .radio-toolbar label {
+  border: 2px solid @mainColor;
+}
+
+.payment-delivery-tip .radio-toolbar input[type="text"] {
+  border-bottom: 2px solid @mainColor;
+}
+
+.payment-delivery-tip .radio-toolbar input[type="radio"]:checked + label {
+  background-color: @mainColor;
+}
+
+.payment-delivery-tip .radio-toolbar button {
+  background-color: @mainColor;
+  border: @mainColor;
+}
+
+.payment-delivery-tip .radio-toolbar button:hover, .payment-delivery-tip .remove-default-tip img:hover {
+  background-color: @gotopBGColor;
+}
+
+/* Payment Module */
+.in-app-wallet .add-money-btn,
+.in-app-wallet-amount,
+.promocode-section .promocode-val, .profile-section .profile-section-item.active,
+.demo-cards .demo-cards-list-desc, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: @mainColor;
+}
+
+.payment-title-border, .profile-section .profile-section-item.active, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  border-bottom-color: @mainColor;
+}
+
+.spinner {
+  border-top-color: @mainColor;
+}
+
+.profile-select.nav-pills .show > .nav-link,
+.card-header .nav-pills .show > .nav-link,
+.custom-select-modal .list-group-item.active,
+.amt-header,
+.in-app-wallet .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.payment-mode-block.active, .payment-mode-btn,
+.set-default-card, .payment-mode-btn:disabled,
+.custom-select-modal .list-group-item.active,
+.payment-header, .payment-mode-btn:hover, .payment-mode-btn:active,
+.card-btn, .confirm-btn,
+.submit-card-btn {
+  background-color: @mainColor !important;
+}
+
+.payment-mode-block.active, .payment-mode-btn,
+.set-default-card, .payment-mode-btn:disabled,
+.custom-select-modal .list-group-item.active, .in-app-wallet .custom-control-input:checked ~ .custom-control-label::before,
+.countryPhoneSelectWrapper,
+.banner-shape, .confirm-btn, .submit-card-btn,
+.saved-cards-list .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: @mainColor !important;
+}
+
+#org_note img, .saved-cards-list .custom-radio .custom-control-input:checked ~ .custom-control-label::after,
+.promocode-applied img, .open-promocode img, .change-promocode img, .card-text > span:not(.card-brand) > img {
+  filter: @mainfilterimg;
+}
+
+/* Payment Module End */
+
+@media screen and (max-width: 991px) {
+  header ul li.lang > a,
+  header ul li.curr a {
+    color: #000;
+  }
+
+  header.fixed .header-right ul li.login a,
+  header.fixed .header-right ul li.login:hover a {
+    color: #000;
+  }
+
+  header.fixed .header-right ul li.login.active a:hover {
+    color: @mainColor;
+  }
+
+  header.fixed .header-right ul li.login a:hover {
+    color: @mainColor;
+  }
+
+  header.fixed .header-right ul li.login.active a:hover,
+  header.fixed .header-right ul li.login a
+    // header.fixed .header-right ul li.login:hover a
+  {
+    background-color: transparent;
+  }
+
+  header.fixed .header-right ul li.login a, header.fixed .header-right ul li.login:hover a {
+    border: none;
+  }
+
+  // header.fixed.loggedin .header-right ul li.login.active{
+  //     background-color:  @mainColor;
+  // }
+  header.fixed .header-right ul li.login.active a, header.fixed .header-right ul li.login a,
+  header.fixed .header-right ul li.login.active a,
+  #new-home-page header.fixed .header-right ul li.login a:hover {
+    background-color: transparent;
+    // color: #5CB7AC;
+  }
+
+  header.fixed .header-right ul li.login:hover a, header.fixed .header-right ul li.login.active a, .banner-shape {
+    border: none;
+  }
+
+  header.fixed .header-right ul li.login:hover a,
+  #new-home-page header.fixed .header-right ul li.login a:hover {
+    background-color: transparent;
+    color: #000;
+  }
+
+  header.fixed .header-right ul li.login.active a, header.fixed .header-right ul li.login.active a:hover {
+    color: @mainColor;
+  }
+
+  #new-home-page header.fixed .header-right ul li.login.active a,
+  #new-home-page header.fixed .header-right ul li.login:hover a {
+    color: @mainColor;
+  }
+}
